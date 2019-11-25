@@ -25,6 +25,9 @@
     background-color: #525252;
 }
 
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
 /*----------------------------------Special padding/margins/text*/
 
 .h1, h2, h3, h4{
@@ -212,4 +215,42 @@ min-height: 120px;
 
 .three-reasons-heading{
     margin-bottom: 15px;
+}
+/*----------------------------------Colours*/
+
+.personal-item-info{
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.key{
+    padding-right: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.value{
+    padding-right: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.key p{
+    margin: 0;
+    font-weight: 700;
+}
+.value p{
+    margin: 0;
+}
+
+.key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.value{
+    width: 60%;
+    position: relative;
 }
